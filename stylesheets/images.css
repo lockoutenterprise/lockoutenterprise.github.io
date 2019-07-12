@@ -1,0 +1,14 @@
+.img-stack{
+    max-width: 100%;
+    position: relative;
+    
+};
+
+.img-stack img{
+    max-width: 100%;
+    position: absolute;
+};
+
+.img-stack img:last-child{
+    position: relative;
+};
